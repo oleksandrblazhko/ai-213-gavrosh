@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T20:50:49.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Ygz9QNFIw-msSG95oZeV" version="21.8.0" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-14T20:39:33.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JbAvjTSrXhSwzKxR98O4" version="22.0.4" type="device">
   <diagram name="Страница — 1" id="A5UIjb4X52Br7rHdH-h_">
-    <mxGraphModel dx="889" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
         <mxCell id="rJDQWY2zP7hxmgYJOwPS-16" value="description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-14" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rJDQWY2zP7hxmgYJOwPS-17" value="format" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-14" vertex="1">
+        <mxCell id="rJDQWY2zP7hxmgYJOwPS-17" value="chosen_format" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-14" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rJDQWY2zP7hxmgYJOwPS-18" value="date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-14" vertex="1">
@@ -102,7 +102,7 @@
         <mxCell id="rJDQWY2zP7hxmgYJOwPS-31" value="time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-29" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rJDQWY2zP7hxmgYJOwPS-32" value="temperature_percent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-29" vertex="1">
+        <mxCell id="rJDQWY2zP7hxmgYJOwPS-32" value="temperature_degree" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-29" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rJDQWY2zP7hxmgYJOwPS-33" value="location" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-29" vertex="1">
@@ -145,7 +145,7 @@
         <mxCell id="rJDQWY2zP7hxmgYJOwPS-44" value="TemperatureChange" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="552" width="160" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="rJDQWY2zP7hxmgYJOwPS-47" value="new_temperature_percent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-44" vertex="1">
+        <mxCell id="rJDQWY2zP7hxmgYJOwPS-47" value="new_temperature_degree" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-44" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rJDQWY2zP7hxmgYJOwPS-48" value="location" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rJDQWY2zP7hxmgYJOwPS-44" vertex="1">

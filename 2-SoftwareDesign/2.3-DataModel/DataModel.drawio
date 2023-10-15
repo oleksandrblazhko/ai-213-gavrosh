@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T20:54:53.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="r8_gxXshIHJjjw2HUFZP" version="22.0.4" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-14T20:41:22.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="2vsf3yi_nTDUxklXzVIQ" version="22.0.4" type="device">
   <diagram name="Страница — 1" id="PBsCXd5WmThWlhP5KfTM">
-    <mxGraphModel dx="1290" dy="1408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,7 +274,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3SEpOaOU_BPswneahcGI-141" value="format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3SEpOaOU_BPswneahcGI-139" vertex="1">
+        <mxCell id="3SEpOaOU_BPswneahcGI-141" value="chosen_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3SEpOaOU_BPswneahcGI-139" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -449,7 +449,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3SEpOaOU_BPswneahcGI-205" value="temperature_percent" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3SEpOaOU_BPswneahcGI-203" vertex="1">
+        <mxCell id="3SEpOaOU_BPswneahcGI-205" value="temperature_degree" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3SEpOaOU_BPswneahcGI-203" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -491,7 +491,7 @@
             <mxRectangle width="30" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3SEpOaOU_BPswneahcGI-227" value="new_temperature_percent" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3SEpOaOU_BPswneahcGI-225" vertex="1">
+        <mxCell id="3SEpOaOU_BPswneahcGI-227" value="new_temperature_degree" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3SEpOaOU_BPswneahcGI-225" vertex="1">
           <mxGeometry x="30" width="190" height="35" as="geometry">
             <mxRectangle width="190" height="35" as="alternateBounds" />
           </mxGeometry>
