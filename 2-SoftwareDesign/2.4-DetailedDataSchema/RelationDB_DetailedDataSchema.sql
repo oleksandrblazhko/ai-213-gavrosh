@@ -121,15 +121,15 @@ ALTER TABLE OfficeEmployee ADD CONSTRAINT office_salary_positive
 ALTER TABLE TechnicalEmployee ADD CONSTRAINT technical_salary_positive
     CHECK ( salary > 0 );
 	
--- Встановлення обмеження вмісту стовпчика Формат файлу таблиці Запит на інформацію. 
-ALTER TABLE InformationRequest
-ADD CONSTRAINT request_format_positive
-CHECK (format LIKE '%.[a-zA-Z0-9]{3,10}%');
+-- Встановлення обмеження вмісту стовпчика ПІБ файлу таблиці Користувача. 
+ALTER TABLE Users
+ADD CONSTRAINT full_name_positive
+CHECK (full_name REGEXP_LIKE '%.[a-zA-Z0-9-]{3,200}%');
 
 -- Встановлення обмеження вмісту стовпчика Файл таблиці Відповідь на запит, який містить посилання на файл з інформацією.
 ALTER TABLE InformationAnswer
 ADD CONSTRAINT file_link_format
-CHECK (file LIKE 'https://drive.google.com/drive/%/%');
+CHECK (file REGEXP_LIKE 'https://drive.google.com/drive/%/%');
 	
 -- Встановлення обмеження вмісту стовпчика Показник температури таблиці температури
 ALTER TABLE Temperature ADD CONSTRAINT temperature_range
