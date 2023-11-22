@@ -1,0 +1,31 @@
+@startuml
+
+hide circle
+title Example of Classes Diagram 
+
+Class User{
+    full_Name
+    date_of_birth
+    gender
+}
+
+Class InformationRequest{
+    request_title
+    description
+    format
+    date
+}
+
+Class InformationAnswer{
+    answerTitle
+    answer
+    file
+    date
+}
+
+
+User"1" --> "*"InformationRequest: send
+
+InformationAnswer"1" --> "1"InformationRequest: answer
+
+@enduml
