@@ -1,0 +1,14 @@
+@startuml
+title UseCase to check noise lvl
+left to right direction
+actor :User:
+
+rectangle Software {
+
+    usecase (Авторизувати користувача)
+    usecase (Перевірка температури)
+
+   :User: -- (Авторизувати користувача)
+   (Авторизувати користувача).> (Перевірка температури) : include
+}
+@enduml

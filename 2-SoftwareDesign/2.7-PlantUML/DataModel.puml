@@ -1,0 +1,45 @@
+@startuml
+title Example of Relation Schema
+
+hide circle
+
+entity "User" as User {
+    (PK) Userno
+    --
+    full_name
+    date_of_birth
+    gender
+}
+
+entity "InformationRequest" as InformationRequest{
+    (PK) InformationRequestno
+    --
+    request_title
+    description
+    format
+    date
+    (FK) Userno
+}
+
+entity "InformationAnswer" as InformationAnswer{
+    (PK) InformationAnswerno
+    --
+    answerTitle
+    answer
+    file
+    date
+    (FK) InformationRequestno
+    (FK) Officeemployeeno
+}
+
+entity "OfficeEmployee" as OfficeEmployee{
+    (PK) OfficeEmployeeno
+    --
+    Salary
+    pos_of_employee
+}
+
+User --{ InformationRequest
+InformationRequest--{ InformationAnswer
+OfficeEmployee--{ InformationAnswer
+@enduml
